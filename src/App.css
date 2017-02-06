@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+  background-color: #FDFDFD;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #30415d;
+  height: 600px;
+  transform: skewY(10deg) translateY(-170px);
+  padding: 20px;
+}
+
+.intro-text {
+  color: #f4f4f4;
+  position: absolute;
+  font-size: 80px;
+  right: 25%;
+  top: 5%;
+  text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
+}
+
+.signature {
+  color: #f4f4f4;
+  position: absolute;
+  font-size: 200px;
+  right: 12%;
+  top: 17%;
+  font-family: 'Allura', cursive;
+  transform: rotateZ(-3deg)
+}
+
+canvas {
+  left: 0;
+  top: 50px;
+  position: absolute;
+}
+
+.App-intro {
+  font-size: large;
+}
