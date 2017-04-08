@@ -33,7 +33,9 @@ export default class Simple extends React.Component {
     });
 
     this._onAnimate = () => {
-      this.object.rotation.y -= 0.015;
+      if (this.object) {
+        this.object.rotation.y -= 0.015;
+      }
     };
   }
 

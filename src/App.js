@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Model from './ThreeD';
-import logo from './logo.svg';
+import TextChanger from './text-changer';
 import './App.css';
 
 class App extends Component {
@@ -16,8 +16,33 @@ class App extends Component {
         <div className="signature">
           Ryan Patterson
         </div>
-        <p className="App-intro">
-        </p>
+        <TextChanger
+          strings={[
+            'A real human being',
+            'Visionary',
+            'Imaginative',
+            'Inspirational',
+            'Inventive',
+            'Genius',
+            'Enterprising',
+            'Innovative',
+            'Insightful',
+            'Perceptive',
+            'Creative',
+            'Resourceful',
+            'Humane',
+            'Refined',
+            'Educated',
+            'Civilized',
+            'Dignified',
+            'Enlightened',
+            'Bold',
+            'Artistic',
+          ]}
+        />
+        <button className="buy-btn">
+          Buy Now
+        </button>
       </div>
     );
   }
